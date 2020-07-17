@@ -1,0 +1,88 @@
+/**
+ * 4. - LOGO & NAVIGATION
+ * -----------------------------------------------------------------------------
+ */
+/* 4.1 - NAVBAR */
+.topbar {
+    background-color: #223555;
+    color: #b89b5e;
+    font-family: "Lora", serif; }
+    .topbar .row {
+      min-height: 40px; }
+    .topbar .info .info-item {
+      display: inline-table;
+      margin-right: 30px; }
+    .topbar .info .info-item:last-child {
+      margin-right: 0; }
+    .topbar .info .info-item .fa {
+      margin-right: 7px;
+      font-size: 18px; }
+    .topbar .sosmed-icon a {
+      color: #b89b5e; }
+      .topbar .sosmed-icon a:hover {
+        color: #223555;
+        background-color: #b89b5e; }
+    .topbar a {
+      color: #b89b5e; }
+      .topbar a:hover {
+        color: #223555; }
+  
+  .middlebar {
+    /*.row{*/
+    min-height: 90px;
+    /*}*/ }
+
+/* 4.1 - NAVBAR */
+.navbar-brand {
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    font-size: 36px; }
+  
+  .navbar-main {
+    font-family: "Lora", serif;
+    -webkit-transition: padding .2s ease-in-out;
+    transition: padding .2s ease-in-out; }
+    .navbar-main .navbar {
+      padding: 0; }
+    .navbar-main ol, .navbar-main li {
+      margin: 0 0;
+      font-size: 14px;
+      font-weight: 700; }
+    .navbar-main ul {
+      margin-left: 0; }
+    .navbar-main .navbar-toggler {
+      color: #b89b5e;
+      border-color: transparent; }
+    .navbar-main .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(151, 126, 79, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+    .navbar-main .dropdown-toggle::after {
+      margin-left: 0.6em;
+      color: #222222; }
+    .navbar-main .dropdown:hover > .dropdown-menu {
+      display: block; }
+    .navbar-main .dropdown-menu {
+      min-width: 200px;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      border-radius: 0;
+      padding: 0.2rem 0;
+      margin-top: 0;
+      border-width: 0;
+      background-color: #223555;
+      color: #ffffff;
+      font-size: 14px; }
+    .navbar-main .dropdown-item {
+      color: #ffffff;
+      padding: 0.5rem 1.5rem;
+      border-bottom: 1px solid #131e31; }
+      .navbar-main .dropdown-item:hover, .navbar-main .dropdown-item:focus {
+        text-decoration: none;
+        background-color: #b89b5e; }
+    .navbar-main.stiky .navbar-brand img {
+      width: 80%; }
+    .navbar-main.stiky .navbar {
+      padding-top: 8px;
+      padding-bottom: 8px; }
+    .navbar-main.open .navbar-nav {
+      display: none; }
