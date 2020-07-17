@@ -11,6 +11,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
+import { MenuComponent } from './componentes/header/menu/menu.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { InicioComponent } from './paginas/inicio/inicio.component';
 import { SliderComponent } from './paginas/inicio/slider/slider.component';
@@ -20,6 +21,7 @@ import { ServiciosComponent } from './paginas/inicio/servicios/servicios.compone
   declarations: [
     AppComponent,
     HeaderComponent,
+    MenuComponent,
     FooterComponent,
     InicioComponent,
     SliderComponent,
